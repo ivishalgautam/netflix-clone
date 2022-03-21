@@ -8,7 +8,6 @@ export default function Row({ title, fetchUrl }) {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
-      console.log(request.data.results);
     }
     fetchData();
   }, [fetchUrl]);
