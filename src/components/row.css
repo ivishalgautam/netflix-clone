@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 10px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #fff;
+  /* margin-bottom: 5px; */
+  margin-left: 1.4rem;
+}
+
+.image-container {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.image-container::-webkit-scrollbar {
+  display: none;
+}
+
+.image-container img {
+  max-height: 150px;
+  margin: 0 5px;
+  transition: transform 0.5s;
+}
+
+.image-container img:hover {
+  transform: scale(1.2);
+}

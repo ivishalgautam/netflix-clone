@@ -1,0 +1,27 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.black {
+  background-color: #000;
+}
+
+.netflix-logo {
+  margin-left: 40px;
+  width: 7rem;
+}
+
+.profile-logo {
+  margin-right: 100px;
+  height: 50%;
+}
